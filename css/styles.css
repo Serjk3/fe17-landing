@@ -1,5 +1,39 @@
+@import url(../css/null.css);
+@import url(../css/awesome.css);
+
+@font-face {
+  font-family: "RalewayRegular";
+  src: url("../fonts/RalewayRegular/RalewayRegular.eot");
+  src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"),
+    url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
 .container {
   max-width: 1170px;
   margin: auto;
   padding: 0 15px;
+}
+
+section {
+  padding: 100px 0;
+}
+
+h2 {
+  font-family: RalewayRegular;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
 }
