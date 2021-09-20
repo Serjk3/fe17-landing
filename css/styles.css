@@ -12,6 +12,11 @@
   font-weight: normal;
 }
 
+html {
+  font-family: Open Sans;
+  font-style: normal;
+}
+
 .container {
   max-width: 1170px;
   margin: auto;
