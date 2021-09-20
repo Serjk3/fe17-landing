@@ -26,13 +26,13 @@
   text-align: center;
 }
 
-.awesome-content-item {
+.awesome-item {
   display: inline-block;
   width: 350px;
   margin: 0 13px;
 }
 
-.awesome-content-img {
+.awesome-img {
   border: 1px solid #d98943;
   border-radius: 50%;
   margin: 0 auto 30px auto;
@@ -40,7 +40,7 @@
   width: 70px;
   height: 70px;
 }
-.awesome-content-img img {
+.awesome-img img {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -51,12 +51,12 @@
   max-height: 100%;
 }
 
-.awesome-content-title {
+.awesome-caption {
   margin-bottom: 30px;
   color: #333333;
 }
 
-.awesome-content-discription {
+.awesome-description {
   color: #000;
   line-height: 19px;
   padding: 0;
