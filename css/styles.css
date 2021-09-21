@@ -55,7 +55,7 @@ p {
   line-height: 19px;
 }
 
-.section-header{
+.section-header {
   display: flex;
   flex-direction: column;
   align-items: center;
