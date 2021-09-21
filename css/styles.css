@@ -13,7 +13,7 @@
 }
 
 html {
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
 }
 
@@ -28,17 +28,33 @@ section {
 }
 
 h2 {
-  font-family: RalewayRegular;
+  font-family: RalewayRegular, sans-serif;
   font-size: 36px;
   font-weight: 400;
+  color: #212121;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 h3 {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #86878b;
+  line-height: 19px;
+}
+
+h4 {
   font-size: 20px;
   font-weight: 700;
+  color: #333333;
+  text-align: center;
 }
 
 p {
   font-size: 14px;
   font-weight: 400;
+  text-align: center;
+  color: #000;
+  line-height: 19px;
 }
