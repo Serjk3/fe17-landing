@@ -1,0 +1,42 @@
+.awesome-title {
+  margin-bottom: 25px;
+}
+
+.awesome-title::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 64px;
+  margin: 25px auto 0;
+  background: #d98943;
+}
+
+.awesome-subtitle {
+  margin-bottom: 67px;
+}
+
+.awesome-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 -15px;
+}
+
+.awesome-item {
+  width: 350px;
+  margin: 0 15px;
+}
+
+.awesome-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 30px;
+  border: 1px solid #d98943;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.awesome-caption {
+  margin-bottom: 16px;
+}
