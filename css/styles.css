@@ -1,5 +1,6 @@
 @import url(../css/null.css);
 @import url(../css/awesome.css);
+@import url(../css/pricing.css);
 
 @font-face {
   font-family: "RalewayRegular";
@@ -23,23 +24,18 @@ html {
   padding: 0 15px;
 }
 
-section {
-  padding: 100px 0;
-}
-
 h2 {
   font-family: RalewayRegular, sans-serif;
   font-size: 36px;
   font-weight: 400;
   color: #212121;
   text-transform: uppercase;
-  text-align: center;
 }
 
 h3 {
   font-size: 14px;
   font-weight: 400;
-  text-align: center;
+
   color: #86878b;
   line-height: 19px;
 }
@@ -57,4 +53,10 @@ p {
   text-align: center;
   color: #000;
   line-height: 19px;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
