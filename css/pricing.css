@@ -30,6 +30,11 @@
 .pricing-item {
   width: 340px;
   margin: 0 15px;
+  position: relative;
+}
+
+.pricing-item:hover {
+  top: -15px;
 }
 
 .pricing-name {
