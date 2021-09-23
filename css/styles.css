@@ -2,6 +2,7 @@
 @import url(../css/awesome.css);
 @import url(../css/pricing.css);
 @import url(../css/customers.css);
+@import url(../css/axure.css);
 
 @font-face {
   font-family: "RalewayRegular";
@@ -23,6 +24,8 @@ html {
   max-width: 1170px;
   margin: auto;
   padding: 0 15px;
+  position: relative;
+  z-index: 1;
 }
 
 h2 {
@@ -36,7 +39,6 @@ h2 {
 h3 {
   font-size: 14px;
   font-weight: 400;
-
   color: #86878b;
   line-height: 19px;
 }

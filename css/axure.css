@@ -1,0 +1,49 @@
+.axure {
+  padding: 58px 0;
+  background-image: url(../img/bg/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.axure::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 0;
+}
+
+.axure-title {
+  color: #ffffff;
+}
+
+.axure-title::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 64px;
+  margin: 34px auto 0;
+  background: #ffffff;
+}
+
+.axure-subtitle {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.axure-link {
+  border: 1px solid #ffffff;
+  padding: 11px 26px;
+}
+
+.axure-link a {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
