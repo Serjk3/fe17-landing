@@ -23,12 +23,7 @@
 }
 
 .axure-title::after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 64px;
-  margin: 34px auto 0;
-  background: #ffffff;
+  background: #ffffff !important;
 }
 
 .axure-subtitle {
