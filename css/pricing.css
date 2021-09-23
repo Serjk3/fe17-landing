@@ -31,6 +31,7 @@
   width: 340px;
   margin: 0 15px;
   position: relative;
+  cursor: pointer;
 }
 
 .pricing-item:hover {
@@ -73,10 +74,6 @@
   cursor: pointer;
 }
 
-.pricing-period:hover {
-  background: #d98943;
-}
-
 .pricing-decription {
   width: 100%;
   margin-bottom: 2px;
@@ -90,4 +87,15 @@
 
 .pricing-decription:last-child {
   margin-bottom: 0;
+}
+
+.pricing-name:active,
+.pricing-cost:active,
+.pricing-decription:active {
+  background: #d98943;
+}
+
+.pricing-period:active {
+  font-weight: 800;
+  background: #d98943;
 }
