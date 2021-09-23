@@ -1,11 +1,15 @@
+.awesome {
+  padding: 100px 0;
+}
+
 .awesome-title {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .awesome-title::after {
   content: "";
   display: block;
-  height: 1px;
+  height: 2px;
   width: 64px;
   margin: 25px auto 0;
   background: #d98943;
@@ -15,7 +19,7 @@
   margin-bottom: 67px;
 }
 
-.awesome-content {
+.awesome-wrap {
   display: flex;
   justify-content: space-around;
   margin: 0 -15px;
