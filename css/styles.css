@@ -1,6 +1,7 @@
 @import url(../css/null.css);
 @import url(../css/awesome.css);
 @import url(../css/pricing.css);
+@import url(../css/customers.css);
 
 @font-face {
   font-family: "RalewayRegular";
@@ -59,4 +60,25 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 67px;
+}
+
+.section-title {
+  margin-bottom: 34px;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 64px;
+  margin: 34px auto 0;
+  background: #e72424;
+}
+
+.section-wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 -15px;
 }
