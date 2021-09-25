@@ -51,7 +51,8 @@
 }
 
 .customers-info {
-  vertical-align: middle;
+  text-align: right;
+  text-transform: capitalize;
 }
 .customers-name {
   display: block;
@@ -59,8 +60,6 @@
   font-size: 20px;
   font-weight: 700;
   line-height: 27px;
-  text-align: right;
-  text-transform: capitalize;
   color: #333333;
 }
 
@@ -69,7 +68,5 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 19px;
-  text-align: right;
-  text-transform: capitalize;
   color: #86878b;
 }
