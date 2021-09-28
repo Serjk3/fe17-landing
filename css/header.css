@@ -1,0 +1,87 @@
+.header {
+  width: 100%;
+  padding: 20px 15px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.header-logo a {
+  font-family: RalewayRegular, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.header-logo a::after {
+  content: "IT";
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #ec7979;
+}
+
+.header-menu__list {
+  display: flex;
+}
+
+.header-menu__link {
+  margin-right: 48px;
+  transition: all 0.2s ease-out;
+}
+
+.header-menu__link a {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.7);
+  position: relative;
+}
+
+.header-menu__link a::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.header-menu__link:hover {
+  transform: translate(0, -3px);
+}
+
+.header-menu__link a:hover::after,
+.header-menu__link a:focus::after {
+  opacity: 1;
+}
+
+.header-menu__link a::after {
+  transform: scale(0);
+  transform-origin: center;
+}
+
+.header-menu__link a:hover::after,
+.header-menu__link a:focus::after {
+  transform: scale(1);
+}
+
+.header-menu__link:last-child {
+  margin-right: 0;
+}

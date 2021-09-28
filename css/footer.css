@@ -1,0 +1,75 @@
+.footer {
+  width: 100%;
+  padding: 30px 0 15px;
+  background-color: #000000;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 -15px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.footer-icon {
+  margin-right: 20px;
+}
+
+.footer-icon:last-child {
+  margin-right: 0;
+}
+
+.footer-icon i {
+  font-size: 23px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+  transition: all 0.2s ease-out;
+}
+
+.footer-icon i:hover {
+  transform: skew(-15deg) translate(0, -5px);
+}
+
+.footer-icon .fa-facebook-f:hover {
+  color: #1877f2;
+}
+
+.footer-icon .fa-twitter:hover {
+  color: #1d9bf0;
+}
+
+.footer-icon .fa-google:hover {
+  color: #db4a39;
+}
+
+.footer-icon .fa-pinterest:hover {
+  color: #e60023;
+}
+
+.footer-icon .fa-instagram:hover {
+  color: #e1306c;
+}
+
+.footer-icon .fa-linkedin-in:hover {
+  color: #0a66c2;
+}
+
+.footer-icon .fa-rss:hover {
+  color: #ee802f;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
