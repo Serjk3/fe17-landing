@@ -20,7 +20,7 @@
   content: "";
   display: inline-block;
   position: absolute;
-  bottom: -12px;
+  top: 100%;
   left: 33px;
   width: 0;
   height: 0;

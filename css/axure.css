@@ -17,27 +17,29 @@
   background: rgba(0, 0, 0, 0.55);
 }
 
-.axure-title {
+.axure .section-title {
   color: #ffffff;
 }
 
-.axure-title::after {
-  background: #ffffff !important;
+.axure .section-title::after {
+  background: #ffffff;
 }
 
-.axure-subtitle {
+.axure .section-subtitle {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.axure-link {
+.axure-link a {
   border: 1px solid #ffffff;
   padding: 11px 26px;
-}
-
-.axure-link a {
   font-size: 15px;
   font-weight: 600;
   line-height: 20px;
   text-align: center;
   color: #ffffff;
+  transition: 0.2s ease;
+}
+
+.axure-link a:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 }
