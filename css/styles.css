@@ -1,9 +1,15 @@
 @import url(../css/null.css);
 @import url(../css/awesome.css);
 @import url(../css/pricing.css);
+@import url(../css/customers.css);
+@import url(../css/axure.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.0/css/all.min.css");
 
 @font-face {
-  font-family: "RalewayRegular";
+  font-family: RalewayRegular;
   src: url("../fonts/RalewayRegular/RalewayRegular.eot");
   src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix")
       format("embedded-opentype"),
@@ -22,6 +28,8 @@ html {
   max-width: 1170px;
   margin: auto;
   padding: 0 15px;
+  position: relative;
+  z-index: 1;
 }
 
 h2 {
@@ -35,7 +43,6 @@ h2 {
 h3 {
   font-size: 14px;
   font-weight: 400;
-
   color: #86878b;
   line-height: 19px;
 }
@@ -59,4 +66,25 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 67px;
+}
+
+.section-title {
+  margin-bottom: 34px;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 64px;
+  margin: 34px auto 0;
+  background: #e72424;
+}
+
+.section-wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 -15px;
 }
