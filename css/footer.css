@@ -19,50 +19,50 @@
   margin-bottom: 18px;
 }
 
-.footer-icon {
+.footer-item {
   margin-right: 20px;
 }
 
-.footer-icon:last-child {
+.footer-item:last-child {
   margin-right: 0;
 }
 
-.footer-icon i {
+.footer-item i {
   font-size: 23px;
   color: rgba(255, 255, 255, 0.8);
   font-weight: 600;
   transition: all 0.2s ease-out;
 }
 
-.footer-icon i:hover {
+.footer-item i:hover {
   transform: skew(-15deg) translate(0, -5px);
 }
 
-.footer-icon .fa-facebook-f:hover {
+.footer-item .fa-facebook-f:hover {
   color: #1877f2;
 }
 
-.footer-icon .fa-twitter:hover {
+.footer-item .fa-twitter:hover {
   color: #1d9bf0;
 }
 
-.footer-icon .fa-google:hover {
+.footer-item .fa-google:hover {
   color: #db4a39;
 }
 
-.footer-icon .fa-pinterest:hover {
+.footer-item .fa-pinterest:hover {
   color: #e60023;
 }
 
-.footer-icon .fa-instagram:hover {
+.footer-item .fa-instagram:hover {
   color: #e1306c;
 }
 
-.footer-icon .fa-linkedin-in:hover {
+.footer-item .fa-linkedin-in:hover {
   color: #0a66c2;
 }
 
-.footer-icon .fa-rss:hover {
+.footer-item .fa-rss:hover {
   color: #ee802f;
 }
 
