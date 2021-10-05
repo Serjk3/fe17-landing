@@ -46,38 +46,31 @@
               <a href="#">download</a>
             </div>
           </div>
-          <div class="fullscreen-form">
-            <form action="" name="trial">
-              <div class="fullscreen-form__content">
-                <h2 class="fullscreen-form__title">
-                  try your <span>free</span> trial today
-                </h2>
-                <div class="fullscreen-form__item">
-                  <label for="trial_name">name</label>
-                  <input type="text" name="trial_name" id="trial_name" />
-                </div>
-                <div class="fullscreen-form__item">
-                  <label for="trial_email">email</label>
-                  <input type="email" name="trial_email" id="trial_email" />
-                </div>
-                <div class="fullscreen-form__item">
-                  <label for="trial_password">password</label>
-                  <input
-                    type="password"
-                    name="trial_passwor"
-                    id="trial_password"
-                  />
-                </div>
+          <form action="" name="trial" class="fullscreen-form" method="POST">
+            <div class="fullscreen-form__content">
+              <h2 class="fullscreen-form__title">
+                try your <span>free</span> trial today
+              </h2>
+              <div class="fullscreen-form__item">
+                <label for="trial_name">name</label>
+                <input type="text" name="trial_name" id="trial_name" />
               </div>
-              <div class="fullscreen-form__btn">
+              <div class="fullscreen-form__item">
+                <label for="trial_email">email</label>
+                <input type="email" name="trial_email" id="trial_email" />
+              </div>
+              <div class="fullscreen-form__item">
+                <label for="trial_password">password</label>
                 <input
-                  type="submit"
-                  class="fullscreen-form__link"
-                  value="get started"
+                  type="password"
+                  name="trial_passwor"
+                  id="trial_password"
                 />
               </div>
-            </form>
-          </div>
+            </div>
+
+            <button class="fullscreen-form__btn">get started</button>
+          </form>
         </div>
       </div>
     </section>
@@ -131,6 +124,11 @@
             </ul>
           </div>
         </div>
+      </div>
+    </section>
+    <section class="tabs">
+      <div class="container">
+        <div class="tabs-wrapper"></div>
       </div>
     </section>
     <section class="awesome" id="awesome">
@@ -307,7 +305,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </h3>
         </div>
-        <div class="section-wrap">
+        <div class="section-wrapper">
           <form action="" name="contact_us">
             <div class="contact-form__content">
               <div class="contact-form__left">
@@ -338,8 +336,8 @@
                 </div>
               </div>
             </div>
-            <div class="contact-btn">
-              <input type="submit" class="contact-link" value="send message" />
+            <div class="contact-btn__wrapper">
+              <button class="contact-btn">send message</button>
             </div>
           </form>
         </div>

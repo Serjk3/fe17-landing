@@ -106,6 +106,9 @@
   width: 371px;
   position: relative;
   animation: jump_form 4.3s ease-in-out infinite;
+  border-radius: 8px;
+  background: #ffffff;
+  overflow: hidden;
 }
 
 .fullscreen-form:hover {
@@ -114,8 +117,6 @@
 
 .fullscreen-form__content {
   padding: 15px 59px 61px;
-  border-radius: 8px 8px 0 0;
-  background: #ffffff;
 }
 
 .fullscreen-form__title {
@@ -173,25 +174,25 @@
   outline-offset: 0;
 }
 
-.fullscreen-form__btn {
-  display: flex;
-  justify-content: center;
+.fullscreen-form__content input:active,
+.fullscreen-form__content input:focus {
+  padding: 0 10px;
 }
 
-.fullscreen-form__link {
+.fullscreen-form__btn {
   cursor: pointer;
   color: #ffffff;
   font-size: 15px;
-  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 22px 0;
+  background: #ec7979;
   text-transform: capitalize;
-  background: rgb(236, 121, 121);
-  border-radius: 0 0 8px 8px;
-  padding: 15px 147px;
   transition: all 0.2s ease-out;
 }
 
-.fullscreen-form__link:hover {
-  background: rgb(237, 99, 99);
+.fullscreen-form__btn:hover {
+  background: #ab4949;
 }
 
 @keyframes jump_form {
