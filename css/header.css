@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  padding: 20px 0;
+  padding: 1.25rem 0;
   background-color: rgba(0, 0, 0, 0.9);
   position: sticky;
   top: 0;
@@ -13,18 +13,18 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin: 0 -15px;
+  margin: 0 -0.94rem;
 }
 
 .header-logo {
-  margin: 0 15px;
+  margin: 0 0.94rem;
 }
 
 .header-logo a {
   font-family: RalewayRegular, sans-serif;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 1.88rem;
+  line-height: 2.19rem;
   text-transform: uppercase;
   color: #fff;
 }
@@ -34,14 +34,14 @@
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 1.88rem;
+  line-height: 2.19rem;
   text-transform: uppercase;
   color: #ec7979;
 }
 
 .header-menu {
-  margin: 0 15px;
+  margin: 0 0.94rem;
 }
 
 .header-menu__list {
@@ -49,14 +49,14 @@
 }
 
 .header-menu__item {
-  margin-right: 48px;
+  margin-right: 3rem;
   transition: all 0.2s ease-out;
 }
 
 .header-menu__item a {
-  font-size: 15px;
+  font-size: 0.94rem;
   font-weight: normal;
-  line-height: 20px;
+  line-height: 1.25rem;
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.7);
   position: relative;
@@ -65,17 +65,17 @@
 .header-menu__item a::after {
   content: "";
   position: absolute;
-  bottom: -3px;
+  bottom: -0.19rem;
   left: 0;
   width: 100%;
-  height: 1px;
+  height: 0.0625rem;
   background-color: rgba(255, 255, 255, 0.7);
   opacity: 0;
   transition: opacity 0.3s, transform 0.3s;
 }
 
 .header-menu__item:hover {
-  transform: translate(0, -3px);
+  transform: translate(0, -0.19rem);
 }
 
 .header-menu__item a:hover::after,
@@ -95,4 +95,14 @@
 
 .header-menu__item:last-child {
   margin-right: 0;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.mobile-menu i {
+  font-size: 2.13rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 700;
 }

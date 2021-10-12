@@ -1,19 +1,19 @@
 .customers {
-  padding: 80px 0;
+  padding: 5rem 0;
 }
 
 .customers-item {
-  width: 298px;
-  margin: 0 15px;
+  width: 18.63rem;
+  margin: 0 0.94rem;
 }
 
 .customers-comment {
   position: relative;
   background: #e2e2e2;
   color: #86878b;
-  border-radius: 7px;
-  padding: 9px 22px;
-  margin-bottom: 22px;
+  border-radius: 0.44rem;
+  padding: 0.56rem 1.38rem;
+  margin-bottom: 1.38rem;
 }
 
 .customers-comment::after {
@@ -21,12 +21,12 @@
   display: inline-block;
   position: absolute;
   top: 100%;
-  left: 33px;
+  left: 2.1rem;
   width: 0;
   height: 0;
-  border-left: 12px solid transparent;
-  border-right: 12px solid transparent;
-  border-top: 12px solid #e2e2e2;
+  border-left: 0.75rem solid transparent;
+  border-right: 0.75rem solid transparent;
+  border-top: 0.75rem solid #e2e2e2;
 }
 
 .customers-autor {
@@ -39,8 +39,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70px;
-  height: 70px;
+  width: 4.38rem;
+  height: 4.38rem;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -56,17 +56,17 @@
 }
 .customers-name {
   display: block;
-  margin-bottom: 12px;
-  font-size: 20px;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
   font-weight: 700;
-  line-height: 27px;
+  line-height: 1.69rem;
   color: #333333;
 }
 
 .customers-function {
   display: block;
-  font-size: 14px;
+  font-size: 0.88rem;
   font-weight: 400;
-  line-height: 19px;
+  line-height: 1.19rem;
   color: #86878b;
 }

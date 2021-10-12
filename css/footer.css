@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  padding: 30px 0 15px;
+  padding: 1.88rem 0 0.94rem;
   background-color: #000000;
 }
 
@@ -9,18 +9,18 @@
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
-  margin: 0 -15px;
+  margin: 0 -0.94rem;
 }
 
 .footer-list {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-bottom: 18px;
+  margin-bottom: 1.125rem;
 }
 
 .footer-item {
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 
 .footer-item:last-child {
@@ -28,14 +28,14 @@
 }
 
 .footer-item i {
-  font-size: 23px;
+  font-size: 1.44rem;
   color: rgba(255, 255, 255, 0.8);
   font-weight: 600;
   transition: all 0.2s ease-out;
 }
 
 .footer-item i:hover {
-  transform: skew(-15deg) translate(0, -5px);
+  transform: skew(-15deg) translate(0, -0.31rem);
 }
 
 .footer-item .fa-facebook-f:hover {
@@ -67,9 +67,9 @@
 }
 
 .footer-copyright {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 1rem;
   color: rgba(255, 255, 255, 0.5);
 }

@@ -1,52 +1,51 @@
 .pricing {
   background: #f5f5f5;
-  padding: 80px 0;
+  padding: 5rem 0;
 }
 
 .pricing-item {
-  width: 340px;
-  margin: 0 15px;
-  /* position: relative; */
+  width: 21.25rem;
+  margin: 0 0.94rem;
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
 .pricing-item:hover {
-  transform: translate(0, -10px);
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  transform: translate(0, -0.625rem);
+  box-shadow: 0px 0.25rem 0.63rem rgba(0, 0, 0, 0.25);
 }
 
 .pricing-name {
   width: 100%;
-  margin-bottom: 2px;
+  margin-bottom: 0.125rem;
   text-align: center;
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  line-height: 50px;
+  line-height: 3.125rem;
   color: #fff;
   background: #333333;
 }
 
 .pricing-cost {
   width: 100%;
-  margin-bottom: 2px;
+  margin-bottom: 0.125rem;
   text-align: center;
   font-family: RalewayRegular, sans-serif;
-  font-size: 35px;
+  font-size: 2.25rem;
   font-weight: 700;
-  line-height: 100px;
+  line-height: 6.25rem;
   color: #fff;
   background: #333333;
 }
 
 .pricing-period {
   width: 100%;
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
   text-align: center;
-  font-size: 14px;
+  font-size: 0.88rem;
   font-weight: 400;
-  line-height: 50px;
+  line-height: 3.125rem;
   color: rgba(255, 255, 255, 0.5);
   background: #333333;
   cursor: pointer;
@@ -54,11 +53,11 @@
 
 .pricing-decription {
   width: 100%;
-  margin-bottom: 2px;
+  margin-bottom: 0.125rem;
   text-align: center;
-  font-size: 14px;
+  font-size: 0.88rem;
   font-weight: 600;
-  line-height: 50px;
+  line-height: 3.125rem;
   color: #86878b;
   background: #ffffff;
 }

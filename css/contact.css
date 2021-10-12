@@ -1,10 +1,10 @@
 .contact {
-  padding: 80px 0;
+  padding: 5rem 0;
 }
 
 .contact .section-wrapper {
   display: block;
-  margin: 0 -15px;
+  margin: 0 -0.94rem;
 }
 
 .contact-form__content {
@@ -12,25 +12,25 @@
   justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-bottom: 69px;
+  margin-bottom: 4.31rem;
   width: 100%;
 }
 .contact-form__left,
 .contact_form__right {
   width: 40%;
-  margin: 0 15px;
+  margin: 0 0.94rem;
 }
 
 .contact-form__item {
-  margin-bottom: 35px;
+  margin-bottom: 2.19rem;
 }
 
 .contact-form__content label {
-  font-family: Open Sans;
-  font-size: 14px;
+  font-family: "Open Sans";
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 14px;
+  line-height: 0.88rem;
   color: #bdbdbd;
   text-transform: capitalize;
 }
@@ -42,7 +42,7 @@
 .contact-form__content input {
   width: 100%;
   border-bottom: 1px solid #bdbdbd;
-  line-height: 25px;
+  line-height: 1.56rem;
   color: #bdbdbd;
   transition: all 0.2s ease-out;
 }
@@ -53,7 +53,7 @@
 
 .contact-form__content textarea {
   width: 100%;
-  height: 190px;
+  height: 11.88rem;
   border-bottom: 1px solid #bdbdbd;
   resize: none;
   color: #bdbdbd;
@@ -66,7 +66,7 @@
 .contact-form__content textarea:hover,
 .contact-form__content textarea:active,
 .contact-form__content textarea:focus {
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0.125em rgba(0, 0, 0, 0.25);
   outline: 0;
   outline-offset: 0;
 }
@@ -75,12 +75,12 @@
 .contact-form__content input:focus,
 .contact-form__content textarea:active,
 .contact-form__content textarea:focus {
-  padding: 10px;
+  padding: 0.63rem;
 }
 
 .contact-form__content input:active,
 .contact-form__content input:focus {
-  padding: 0 10px;
+  padding: 0 0.63rem;
 }
 
 .contact-btn__wrapper {
@@ -89,12 +89,12 @@
 }
 
 .contact-btn {
-  padding: 11px 32px;
+  padding: 0.69rem 2rem;
   background: #ec7979;
   text-transform: capitalize;
   color: #ffffff;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 0.94rem;
 }
 
 .contact-btn:hover {

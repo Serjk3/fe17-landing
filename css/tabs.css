@@ -1,0 +1,93 @@
+.tabs {
+  padding: 8rem 0;
+}
+
+.tab-nav {
+  display: flex;
+  text-align: center;
+  width: 50%;
+}
+
+.tab-item {
+  width: 11.5rem;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 2.188rem;
+  text-transform: uppercase;
+  border-radius: 5px 5px 0px 0px;
+  cursor: pointer;
+}
+
+.tab-item.active {
+  color: #333333;
+  border-top: 1px solid #c6cbcd;
+  border-left: 1px solid #c6cbcd;
+  border-right: 1px solid #c6cbcd;
+  border-bottom: 1px solid #fff;
+}
+
+.tabs-content {
+  margin-top: -1px;
+  display: flex;
+  border: 1px solid #c6cbcd;
+  justify-content: space-between;
+}
+
+.tabs-description {
+  padding: 3.375rem 0 3.375rem 6.25rem;
+  width: 41.875rem;
+}
+
+.tabs-title {
+  font-family: "Open Sans", sans-serif;
+  text-transform: unset;
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.5625rem;
+  margin-bottom: 3rem;
+  color: #000000;
+}
+
+.tabs-text {
+  width: 35.625rem;
+  font-family: "RalewayRegular", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  color: #000000;
+  text-align: left;
+}
+
+.tabs-text:nth-child(4) {
+  margin-bottom: 1.5rem;
+}
+
+.tabs-text:nth-child(6) {
+  margin-bottom: 1.5rem;
+}
+
+.tabs-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.tabs-btn__link {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  background-color: #ec7979;
+  padding: 11px 50px;
+  transition: all 0.2s ease-in-out;
+}
+
+.tabs-btn__link:hover {
+  background-color: #ab4949;
+}
+
+.tabs-img {
+  width: 29.375rem;
+}
+
+.tabs-img img {
+  width: 100%;
+  height: 100%;
+}

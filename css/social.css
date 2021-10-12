@@ -1,7 +1,7 @@
 .social {
   width: 100%;
   background-color: #f8efef;
-  padding: 14px 0;
+  padding: 0.88rem 0;
 }
 
 .social-wrapper {
@@ -9,22 +9,22 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin: 0 -15px;
+  margin: 0 -0.94rem;
 }
 
 .social-info {
-  width: 365px;
-  margin: 0 15px;
+  width: 22.81rem;
+  margin: 0 0.94rem;
 }
 
 .social-info__title {
   font-family: "Open Sans", sans-serif;
   text-align: left;
   text-transform: capitalize;
-  margin-bottom: 14px;
-  font-size: 20px;
+  margin-bottom: 0.88rem;
+  font-size: 1.25rem;
   font-weight: 700;
-  line-height: 27px;
+  line-height: 1.69rem;
   color: #333333;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .social-links {
-  margin: 0 15px;
+  margin: 0 0.94rem;
   width: 50%;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .social-links__item i {
-  font-size: 34px;
+  font-size: 2.13rem;
   color: #86878b;
   font-weight: 700;
   transition: all 0.2s ease-out;

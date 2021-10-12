@@ -1,5 +1,5 @@
 .fullscreen {
-  padding: 120px 0;
+  padding: 8rem 0;
   background-image: url(../img/bg/background-header.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,25 +23,25 @@
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 0 -15px;
+  margin: 0 -0.94rem;
 }
 
 .fullscreen-left {
-  max-width: 544px;
-  margin: 0 15px;
+  max-width: 34rem;
+  margin: 0 0.94rem;
 }
 
 .fullscreen-logo {
   display: block;
-  margin-bottom: 39px;
+  margin-bottom: 2.44rem;
 }
 
 .fullscreen-logo a {
   font-family: Roboto, sans-serif;
-  font-size: 60px;
+  font-size: 3.75rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 70px;
+  line-height: 4.38rem;
   text-align: left;
   color: #fff;
   text-transform: uppercase;
@@ -55,26 +55,26 @@
 .fullscreen-title {
   color: #ffffff;
   text-transform: uppercase;
-  margin-bottom: 39px;
+  margin-bottom: 2.44rem;
 }
 
 .fullscreen-title::after {
   content: "";
   display: block;
-  height: 2px;
-  width: 64px;
-  margin-top: 32px;
+  height: 0.125rem;
+  width: 4rem;
+  margin-top: 2rem;
   background: #ffffff;
 }
 
 .fullscreen-subtitle {
   font-family: RalewayRegular, sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 300;
-  line-height: 19px;
+  line-height: 1.19rem;
   color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 39px;
+  margin-bottom: 2.44rem;
 }
 
 .fullscreen-link {
@@ -82,17 +82,17 @@
 }
 
 .fullscreen-link a {
-  padding: 11px 27px;
+  padding: 0.69rem 1.69rem;
   border: 1px solid #ffffff;
   color: #ffffff;
   text-transform: capitalize;
   font-weight: 600;
-  line-height: 20px;
+  line-height: 1.25rem;
   transition: all 0.2s ease-out;
 }
 
 .fullscreen-link a:hover {
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0.25rem 0.63rem rgba(0, 0, 0, 0.25);
   color: #000;
   background-color: #fff;
 }
@@ -102,11 +102,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 15px;
-  width: 371px;
+  margin: 0 0.94rem;
+  width: 23.19rem;
   position: relative;
   animation: jump_form 4.3s ease-in-out infinite;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   background: #ffffff;
   overflow: hidden;
 }
@@ -116,19 +116,19 @@
 }
 
 .fullscreen-form__content {
-  padding: 15px 59px 61px;
+  padding: 0.94rem 3.69rem 3.81rem;
 }
 
 .fullscreen-form__title {
   font-family: "Open Sans";
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 27px;
+  line-height: 1.69rem;
   color: #000000;
   text-transform: capitalize;
   text-align: center;
-  margin-bottom: 44px;
+  margin-bottom: 2.75rem;
 }
 
 .fullscreen-form__title span {
@@ -137,7 +137,7 @@
 }
 
 .fullscreen-form__item {
-  margin-bottom: 19px;
+  margin-bottom: 1.19rem;
 }
 
 .fullscreen-form__item:last-child {
@@ -146,10 +146,10 @@
 
 .fullscreen-form__content label {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 0.88rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 19px;
+  line-height: 1.19rem;
   text-transform: capitalize;
   color: #bdbdbd;
 }
@@ -169,23 +169,23 @@
 .fullscreen-form__content input:hover,
 .fullscreen-form__content input:active,
 .fullscreen-form__content input:focus {
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.25);
   outline: 0;
   outline-offset: 0;
 }
 
 .fullscreen-form__content input:active,
 .fullscreen-form__content input:focus {
-  padding: 0 10px;
+  padding: 0 0.63rem;
 }
 
 .fullscreen-form__btn {
   cursor: pointer;
   color: #ffffff;
-  font-size: 15px;
+  font-size: 0.94rem;
   width: 100%;
   margin: 0;
-  padding: 22px 0;
+  padding: 1.38rem 0;
   background: #ec7979;
   text-transform: capitalize;
   transition: all 0.2s ease-out;
@@ -206,6 +206,6 @@
   5%,
   15%,
   25% {
-    bottom: 20px;
+    bottom: 1.25rem;
   }
 }
